@@ -13,10 +13,10 @@ import { DLT } from '../redux/actions/action';
 const Header = () => {
 
     const [price,setPrice] = useState(0);
-    // console.log(price);
+    console.log(price);
 
         const getdata = useSelector((state)=> state.cartreducer.carts);
-        // console.log(getdata);
+        console.log(getdata);
 
         const dispatch = useDispatch();
 
@@ -56,6 +56,7 @@ const Header = () => {
                         <NavLink to="/" className="text-decoration-none text-light" >Home</NavLink>
                         <NavLink to="/create" className="text-decoration-none text-light">Create</NavLink>
                         <NavLink to="/table" className="text-decoration-none text-light">Table</NavLink>
+                        
 
                     </Nav>
 

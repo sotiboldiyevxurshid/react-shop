@@ -3,11 +3,21 @@ import Table from 'react-bootstrap/Table'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { DLT,ADD,REMOVE } from '../redux/actions/action'
+import { useTranslation } from 'react-i18next'
+import i18next from "i18next";
+
 
 
 const CardsDetails = () => {
 
   const [data,setData] = useState([]);
+
+  const { t } = useTranslation()
+
+  const handleClick = (value) => {
+    i18next.changeLanguage(value)
+  }
+
   // console.log(data);
 
   const {id} = useParams();
@@ -50,10 +60,12 @@ const remove = (item)=>{
 
   useEffect(()=>{
     compare();
+    //eslint-disable-next-line
   },[id])
 
   return (
     <>
+
       <div className="container mt-2">
         <h2 className='text-center'>Iteams Details Page
         </h2>

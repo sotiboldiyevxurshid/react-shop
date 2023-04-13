@@ -36,7 +36,21 @@
       background-color: green;
   }
   
+
+
+  .inputcha{
+ padding: 10px 50px;
+ border-radius: 20px;
+ color: skyblue;
+ margin-left: 500px;
+  }
+
+
   @media (max-width:772px){
+
+    .inputcha{
+        margin-left: 79px;
+    }
       .iteamsdetails{
           flex-direction: column;
           align-items: center;

@@ -2,13 +2,13 @@ const Cardsdata = [
     {
         id: 1,
         rname: "Massala Theoryy",
-        imgdata: "https://b.zmtcdn.com/data/pictures/9/18857339/8f53919f1175c08cf0f0371b73704f9b_o2_featured_v2.jpg?output-format=webp",
+        imgdata: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
         address: "North Indian, Biryani, Mughlai",
-        delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+        delimg: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
         somedata: " 1175 + order placed from here recently",
         price: 350,
         rating: "3.8",
-        arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
+        arrimg: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
         qnty:0
     },
     {
@@ -70,43 +70,7 @@ const Cardsdata = [
         rating: "3.8",
         arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
          qnty:0
-    },
-    {
-        id: 7,
-        rname: "Hocco Eatery",
-        imgdata: "https://b.zmtcdn.com/data/pictures/chains/5/110155/811c01a5430d50d3260f77917da99e12_o2_featured_v2.jpg",
-        address: "North Indian, Fast Food",
-        delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
-        somedata: "500 + order placed from here recently",
-        price: 300,
-        rating: "3.8",
-        arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-         qnty:0
-    },
-    {
-        id: 8,
-        rname: "Chai Wai",
-        imgdata: "https://b.zmtcdn.com/data/pictures/3/18514413/0a17b72e9fec52a3ca736f4c2ea3646f_o2_featured_v2.jpg",
-        address: "Tea, Coffee, Shake, Beverages",
-        delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
-        somedata: "500 + order placed from here recently",
-        price: 100,
-        rating: "3.2",
-        arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-         qnty:0
-    },
-    {
-        id: 9,
-        rname: "HL Frankie",
-        imgdata: "https://b.zmtcdn.com/data/pictures/7/19639627/94c0a4cf15c02d3982d154e2c5dd8cbb_o2_featured_v2.jpg",
-        address: "Burger, Sandwich, Fast Food",
-        delimg: "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
-        somedata: "2525 + order placed from here recently",
-        price: 100,
-        rating: "3.8",
-        arrimg: "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp",
-         qnty:0
-    },
+    }
 ];
 
 export default Cardsdata;
