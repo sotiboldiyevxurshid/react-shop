@@ -13,10 +13,10 @@ import { DLT } from '../redux/actions/action';
 const Header = () => {
 
     const [price,setPrice] = useState(0);
-    console.log(price);
+    // console.log(price);
 
         const getdata = useSelector((state)=> state.cartreducer.carts);
-        console.log(getdata);
+        // console.log(getdata);
 
         const dispatch = useDispatch();
 
@@ -52,15 +52,17 @@ const Header = () => {
             <Navbar bg="dark" variant="dark" style={{ height: "60px" }}>
                 <Container>
                     <NavLink to="/" className="text-decoration-none text-light mx-3">Add to Cart</NavLink>
-                    <Nav className="me-auto" style={{display:"flex" , gap:"20px"}}>
-                        <NavLink to="/" className="text-decoration-none text-light" >Home</NavLink>
-                        <NavLink to="/create" className="text-decoration-none text-light">Create</NavLink>
-                        <NavLink to="/table" className="text-decoration-none text-light">Table</NavLink>
-                        
-
+                    <Nav className="me-auto">
+                        <NavLink to="/" className="text-decoration-none text-light">Home</NavLink>
                     </Nav>
 
-                    
+                    <Nav className="me-auto">
+                        <NavLink to="/create" className="text-decoration-none text-light">create</NavLink>
+                    </Nav>
+
+                    <Nav className="me-auto">
+                        <NavLink to="/table" className="text-decoration-none text-light">table</NavLink>
+                    </Nav>
 
                     <Badge badgeContent={getdata.length} color="primary"
                         id="basic-button"

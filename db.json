@@ -1,12 +1,19 @@
 {
-  "data": [
+  "posts": [
     {
       "id": 1,
-      "rname":"s",
-      "Price": "json-server",
-      "qnty":4,
-      "imgdata":"https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+      "title": "json-server",
+      "author": "typicode"
     }
-  ]
-
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
